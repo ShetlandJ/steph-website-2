@@ -169,6 +169,43 @@ a:hover {
     min-height: 200px;
 }
 
+/* Homepage Project Grid */
+.homepage-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 3rem 0 1rem;
+}
+
+.homepage-card {
+    display: block;
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.homepage-card:hover {
+    text-decoration: none;
+}
+
+.homepage-card img {
+    width: 100%;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    display: block;
+}
+
+.homepage-card span {
+    display: block;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2c2c2c;
+}
+
+.homepage-card:hover span {
+    color: #8B4513;
+}
+
 /* Project Grid */
 .project-grid {
     display: grid;
@@ -399,6 +436,11 @@ a:hover {
     .project-details {
         grid-template-columns: 1fr;
     }
+
+    .homepage-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
     
     .container,
     .nav-container {
@@ -429,6 +471,10 @@ a:hover {
     }
     
     .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .homepage-grid {
         grid-template-columns: 1fr;
     }
     
