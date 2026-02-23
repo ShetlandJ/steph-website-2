@@ -290,16 +290,11 @@ a:hover {
 }
 
 .profile-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
     margin: 0 auto 2rem;
-    background-color: #f0f0f0;
-    border: 2px dashed #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #888;
+    display: block;
 }
 
 .social-links {
