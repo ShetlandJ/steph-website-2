@@ -2,3 +2,8 @@
 .claude/
 content/*.docx
 compress-images.py
+UI_UX_REVIEW.md
+/*-mobile-*.png
+/*-tablet-*.png
+/*-desktop-*.png
+/project-detail-*.png
