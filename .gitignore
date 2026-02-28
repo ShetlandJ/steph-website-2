@@ -1,7 +1,9 @@
 .DS_Store
 .claude/
 content/*.docx
-compress-images.py
+*.py
+*.sh
+projects/*.txt
 UI_UX_REVIEW.md
 /*-mobile-*.png
 /*-tablet-*.png
