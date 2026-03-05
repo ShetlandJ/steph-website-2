@@ -121,6 +121,14 @@ a:hover {
     font-family: 'Lora', 'Georgia', serif;
 }
 
+.homepage .logo {
+    display: none;
+}
+
+.homepage .nav-container {
+    justify-content: center;
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -547,10 +555,17 @@ a:hover {
         gap: 0.25rem 1rem;
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 0.5rem;
+    }
+
+    .homepage-card span::after {
+        content: ' →';
+        color: #8B4513;
     }
 
     .nav-menu a {
         padding-bottom: 0.25rem;
+        font-size: 1.2rem;
     }
     
     .hero h1 {
